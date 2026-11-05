@@ -1,11 +1,11 @@
 Batasan Demo Dunia Nyata:
-1.Hanya membahas 1 Data Center
-2.Menggunakan Standard B2ats v2 (2 vcpus, 1 GiB memory) untuk VM Azure
+1. Hanya membahas 1 Data Center
+2. Menggunakan Standard B2ats v2 (2 vcpus, 1 GiB memory) untuk VM Azure
 
 Setup Azure:
-1.Login azure dan buat VM Azure
-2.Masuk ke vm dan buat/copy persiapan [Dockerfile, worker.py, analis.py, tugas.csv, tugas_vm1.csv, tugas_vm2.csv, tugas_vm3.csv]
-3.Buat image docker image dan container vm0, vm1, vm2
+1. Login azure dan buat VM Azure
+2. Masuk ke vm dan buat/copy persiapan [Dockerfile, worker.py, analis.py, tugas.csv, tugas_vm1.csv, tugas_vm2.csv, tugas_vm3.csv]
+3. Buat image docker image dan container vm0, vm1, vm2
 ```
 sudo docker build -t worker-image .
 
